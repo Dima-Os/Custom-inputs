@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-  <div class="container">
-    <h1>Custom inputs</h1>
-    <section class="checkboxes-wrapper">
-      <h2 class="checkboxes-heading">Checkboxes</h2>
-      <div class="checkboxes-container">
-        <div class="first-input-wrapper">
-          <h3 class="first-input-heading">Example-1</h3>
-          <input type="checkbox" class="first-input">
-          <input type="checkbox" class="first-input">
-        </div>
-        <div class="first-input-wrapper">
-          <h3 class="first-input-heading">Example-1</h3>
-          <input type="checkbox" class="first-input">
-          <input type="checkbox" class="first-input">
-        </div>
-      </div>
-    </section>
-  </div>
-</body>
-
+  <body>
+    <div class="container">
+      <h1>Custom inputs</h1>
+      <section class="checkboxes-wrapper">
+        <h2 class="checkboxes-heading">Checkboxes</h2>
+        <ul class="checkboxes-container">
+          <li class="input-wrapper">
+            <h3 class="input-heading">Example-1</h3>
+            <input type="checkbox" class="first-input" />
+            <input type="checkbox" class="first-input" />
+          </li>
+          <li class="input-wrapper sec-input-wrapper">
+            <h3 class="input-heading">Example-2</h3>
+            <label class="power-off">
+              <input type="checkbox" name="" id="" class="second-input" />
+              <span class="btn"></span>
+              <i class="fa fa-power-off"></i>
+            </label>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>
